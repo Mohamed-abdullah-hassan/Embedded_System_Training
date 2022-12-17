@@ -50,3 +50,14 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# My ignore
+*.iex
+*.axf
+*.htm
+*.lnp
+*.dep
+*.crf
+*.lst
+*.map
+*.engmo
