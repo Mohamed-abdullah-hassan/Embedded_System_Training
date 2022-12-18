@@ -1,4 +1,6 @@
 
+
+
 ; Seting Symbolic names
 SYSCTRK_RCGCGPIO_R		equ		0x400FE608
 GPIO_PORTF_DIR_R		EQU		0x40025400
@@ -36,7 +38,7 @@ LED_Init
 												
 		STR		R0, [R1]						; Stroing the new values to the destination address pointed by R1
 
-		NOP
+		NOP										; Wait for 2 clocks to ensure proper activation.
 		NOP
 		
 ;		LDR		R1, =GPIO_PORTF_LOCK_R
