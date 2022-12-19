@@ -63,3 +63,4 @@ dkms.conf
 *.engmo
 *.code-workspace
 .vscode/
+.scvd
