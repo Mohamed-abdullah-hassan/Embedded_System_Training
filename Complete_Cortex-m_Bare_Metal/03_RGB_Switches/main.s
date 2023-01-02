@@ -12,11 +12,12 @@ GPIO_PORTF_CR_R			equ		0x40025524
 
 GPIO_Lock_Key			equ		0x4C4F434B
 
-Switch_1				equ		0x10
-Switch_2				equ		0x01
-Switches				equ		(Switch_1 :OR: Switch_2)
+Switch_1				equ		0x10		;PortF pin 0 the switch (sw2) is active low 
+Switch_2				equ		0x01		;PortF pin 4 the switch (sw1) is active low 
+Switches				equ		(Switch_1 :OR: Switch_2) 
+											; Can us + operator also => 0x10(2) + 0x01(1) = 0x11(3)
 
-											;PortF pin 0 this pin is active low 
+											
 RED_LED					equ		0x02
 Blue_LED				equ		0x04
 Green_LED				equ		0x08
@@ -59,7 +60,7 @@ GPIO_Init
 		str		r0, [r1]
 		
 		ldr		r1, =GPIO_PORTF_DEN_R
-;		mov		r0,	#0x13
+		;mov		r0,	#0x13
 		mov		r0,	#(Switches :OR: LEDs )
 		str		r0, [r1]
 		endp
@@ -70,7 +71,8 @@ Loop	proc
 		bl		Input
 		;cmp		r0, #0x00	
 		cmp		r0, #Switches
-		beq		RED_On
+		;beq		RED_On
+		beq		White_On
 		cmp		r0, #Switch_1
 		beq		Blue_On
 		cmp		r0, #Switch_2
@@ -91,6 +93,9 @@ Green_On
 		b		Output
 		ENDP
 
+White_On
+		mov		r0,#LEDs
+		b		Output
 			
 Output	PROC
 		ldr		r1, =GPIO_PORTF_DATA_R
@@ -104,7 +109,7 @@ Input	PROC
 		and		r0,	r0,	#0x11				; For both Switch 1 and Switch 2
 		bx		lr
 		ENDP
-			
+						
 Delay	PROC
 		subs	r0,r0,#1
 		bne		Delay
