@@ -179,38 +179,6 @@
         <Bp>
           <Number>2</Number>
           <Type>0</Type>
-          <LineNumber>193</LineNumber>
-          <EnabledFlag>1</EnabledFlag>
-          <Address>3480</Address>
-          <ByteObject>0</ByteObject>
-          <HtxType>0</HtxType>
-          <ManyObjects>0</ManyObjects>
-          <SizeOfObject>0</SizeOfObject>
-          <BreakByAccess>0</BreakByAccess>
-          <BreakIfRCount>1</BreakIfRCount>
-          <Filename>.\main.c</Filename>
-          <ExecCommand></ExecCommand>
-          <Expression>\\SSD1306\main.c\193</Expression>
-        </Bp>
-        <Bp>
-          <Number>3</Number>
-          <Type>0</Type>
-          <LineNumber>258</LineNumber>
-          <EnabledFlag>1</EnabledFlag>
-          <Address>2690</Address>
-          <ByteObject>0</ByteObject>
-          <HtxType>0</HtxType>
-          <ManyObjects>0</ManyObjects>
-          <SizeOfObject>0</SizeOfObject>
-          <BreakByAccess>0</BreakByAccess>
-          <BreakIfRCount>1</BreakIfRCount>
-          <Filename>.\main.c</Filename>
-          <ExecCommand></ExecCommand>
-          <Expression>\\SSD1306\main.c\258</Expression>
-        </Bp>
-        <Bp>
-          <Number>4</Number>
-          <Type>0</Type>
           <LineNumber>438</LineNumber>
           <EnabledFlag>1</EnabledFlag>
           <Address>3108</Address>
@@ -225,7 +193,7 @@
           <Expression>\\SSD1306\main.c\438</Expression>
         </Bp>
         <Bp>
-          <Number>5</Number>
+          <Number>3</Number>
           <Type>0</Type>
           <LineNumber>177</LineNumber>
           <EnabledFlag>1</EnabledFlag>
@@ -241,39 +209,7 @@
           <Expression></Expression>
         </Bp>
         <Bp>
-          <Number>6</Number>
-          <Type>0</Type>
-          <LineNumber>191</LineNumber>
-          <EnabledFlag>1</EnabledFlag>
-          <Address>0</Address>
-          <ByteObject>0</ByteObject>
-          <HtxType>0</HtxType>
-          <ManyObjects>0</ManyObjects>
-          <SizeOfObject>0</SizeOfObject>
-          <BreakByAccess>0</BreakByAccess>
-          <BreakIfRCount>0</BreakIfRCount>
-          <Filename>.\main.c</Filename>
-          <ExecCommand></ExecCommand>
-          <Expression></Expression>
-        </Bp>
-        <Bp>
-          <Number>7</Number>
-          <Type>0</Type>
-          <LineNumber>256</LineNumber>
-          <EnabledFlag>1</EnabledFlag>
-          <Address>0</Address>
-          <ByteObject>0</ByteObject>
-          <HtxType>0</HtxType>
-          <ManyObjects>0</ManyObjects>
-          <SizeOfObject>0</SizeOfObject>
-          <BreakByAccess>0</BreakByAccess>
-          <BreakIfRCount>0</BreakIfRCount>
-          <Filename>.\main.c</Filename>
-          <ExecCommand></ExecCommand>
-          <Expression></Expression>
-        </Bp>
-        <Bp>
-          <Number>8</Number>
+          <Number>4</Number>
           <Type>0</Type>
           <LineNumber>377</LineNumber>
           <EnabledFlag>1</EnabledFlag>
@@ -289,7 +225,7 @@
           <Expression></Expression>
         </Bp>
         <Bp>
-          <Number>9</Number>
+          <Number>5</Number>
           <Type>0</Type>
           <LineNumber>436</LineNumber>
           <EnabledFlag>1</EnabledFlag>
@@ -305,103 +241,7 @@
           <Expression></Expression>
         </Bp>
         <Bp>
-          <Number>10</Number>
-          <Type>0</Type>
-          <LineNumber>192</LineNumber>
-          <EnabledFlag>1</EnabledFlag>
-          <Address>0</Address>
-          <ByteObject>0</ByteObject>
-          <HtxType>0</HtxType>
-          <ManyObjects>0</ManyObjects>
-          <SizeOfObject>0</SizeOfObject>
-          <BreakByAccess>0</BreakByAccess>
-          <BreakIfRCount>0</BreakIfRCount>
-          <Filename>.\main.c</Filename>
-          <ExecCommand></ExecCommand>
-          <Expression></Expression>
-        </Bp>
-        <Bp>
-          <Number>11</Number>
-          <Type>0</Type>
-          <LineNumber>194</LineNumber>
-          <EnabledFlag>1</EnabledFlag>
-          <Address>0</Address>
-          <ByteObject>0</ByteObject>
-          <HtxType>0</HtxType>
-          <ManyObjects>0</ManyObjects>
-          <SizeOfObject>0</SizeOfObject>
-          <BreakByAccess>0</BreakByAccess>
-          <BreakIfRCount>0</BreakIfRCount>
-          <Filename>.\main.c</Filename>
-          <ExecCommand></ExecCommand>
-          <Expression></Expression>
-        </Bp>
-        <Bp>
-          <Number>12</Number>
-          <Type>0</Type>
-          <LineNumber>206</LineNumber>
-          <EnabledFlag>1</EnabledFlag>
-          <Address>0</Address>
-          <ByteObject>0</ByteObject>
-          <HtxType>0</HtxType>
-          <ManyObjects>0</ManyObjects>
-          <SizeOfObject>0</SizeOfObject>
-          <BreakByAccess>0</BreakByAccess>
-          <BreakIfRCount>0</BreakIfRCount>
-          <Filename>.\main.c</Filename>
-          <ExecCommand></ExecCommand>
-          <Expression></Expression>
-        </Bp>
-        <Bp>
-          <Number>13</Number>
-          <Type>0</Type>
-          <LineNumber>208</LineNumber>
-          <EnabledFlag>1</EnabledFlag>
-          <Address>0</Address>
-          <ByteObject>0</ByteObject>
-          <HtxType>0</HtxType>
-          <ManyObjects>0</ManyObjects>
-          <SizeOfObject>0</SizeOfObject>
-          <BreakByAccess>0</BreakByAccess>
-          <BreakIfRCount>0</BreakIfRCount>
-          <Filename>.\main.c</Filename>
-          <ExecCommand></ExecCommand>
-          <Expression></Expression>
-        </Bp>
-        <Bp>
-          <Number>14</Number>
-          <Type>0</Type>
-          <LineNumber>271</LineNumber>
-          <EnabledFlag>1</EnabledFlag>
-          <Address>0</Address>
-          <ByteObject>0</ByteObject>
-          <HtxType>0</HtxType>
-          <ManyObjects>0</ManyObjects>
-          <SizeOfObject>0</SizeOfObject>
-          <BreakByAccess>0</BreakByAccess>
-          <BreakIfRCount>0</BreakIfRCount>
-          <Filename>.\main.c</Filename>
-          <ExecCommand></ExecCommand>
-          <Expression></Expression>
-        </Bp>
-        <Bp>
-          <Number>15</Number>
-          <Type>0</Type>
-          <LineNumber>273</LineNumber>
-          <EnabledFlag>1</EnabledFlag>
-          <Address>0</Address>
-          <ByteObject>0</ByteObject>
-          <HtxType>0</HtxType>
-          <ManyObjects>0</ManyObjects>
-          <SizeOfObject>0</SizeOfObject>
-          <BreakByAccess>0</BreakByAccess>
-          <BreakIfRCount>0</BreakIfRCount>
-          <Filename>.\main.c</Filename>
-          <ExecCommand></ExecCommand>
-          <Expression></Expression>
-        </Bp>
-        <Bp>
-          <Number>16</Number>
+          <Number>6</Number>
           <Type>0</Type>
           <LineNumber>392</LineNumber>
           <EnabledFlag>1</EnabledFlag>
@@ -417,7 +257,7 @@
           <Expression></Expression>
         </Bp>
         <Bp>
-          <Number>17</Number>
+          <Number>7</Number>
           <Type>0</Type>
           <LineNumber>394</LineNumber>
           <EnabledFlag>1</EnabledFlag>
@@ -433,7 +273,7 @@
           <Expression></Expression>
         </Bp>
         <Bp>
-          <Number>18</Number>
+          <Number>8</Number>
           <Type>0</Type>
           <LineNumber>451</LineNumber>
           <EnabledFlag>1</EnabledFlag>
@@ -449,7 +289,7 @@
           <Expression></Expression>
         </Bp>
         <Bp>
-          <Number>19</Number>
+          <Number>9</Number>
           <Type>0</Type>
           <LineNumber>453</LineNumber>
           <EnabledFlag>1</EnabledFlag>
@@ -465,103 +305,7 @@
           <Expression></Expression>
         </Bp>
         <Bp>
-          <Number>20</Number>
-          <Type>0</Type>
-          <LineNumber>214</LineNumber>
-          <EnabledFlag>1</EnabledFlag>
-          <Address>0</Address>
-          <ByteObject>0</ByteObject>
-          <HtxType>0</HtxType>
-          <ManyObjects>0</ManyObjects>
-          <SizeOfObject>0</SizeOfObject>
-          <BreakByAccess>0</BreakByAccess>
-          <BreakIfRCount>0</BreakIfRCount>
-          <Filename>.\main.c</Filename>
-          <ExecCommand></ExecCommand>
-          <Expression></Expression>
-        </Bp>
-        <Bp>
-          <Number>21</Number>
-          <Type>0</Type>
-          <LineNumber>216</LineNumber>
-          <EnabledFlag>1</EnabledFlag>
-          <Address>0</Address>
-          <ByteObject>0</ByteObject>
-          <HtxType>0</HtxType>
-          <ManyObjects>0</ManyObjects>
-          <SizeOfObject>0</SizeOfObject>
-          <BreakByAccess>0</BreakByAccess>
-          <BreakIfRCount>0</BreakIfRCount>
-          <Filename>.\main.c</Filename>
-          <ExecCommand></ExecCommand>
-          <Expression></Expression>
-        </Bp>
-        <Bp>
-          <Number>22</Number>
-          <Type>0</Type>
-          <LineNumber>264</LineNumber>
-          <EnabledFlag>1</EnabledFlag>
-          <Address>0</Address>
-          <ByteObject>0</ByteObject>
-          <HtxType>0</HtxType>
-          <ManyObjects>0</ManyObjects>
-          <SizeOfObject>0</SizeOfObject>
-          <BreakByAccess>0</BreakByAccess>
-          <BreakIfRCount>0</BreakIfRCount>
-          <Filename>.\main.c</Filename>
-          <ExecCommand></ExecCommand>
-          <Expression></Expression>
-        </Bp>
-        <Bp>
-          <Number>23</Number>
-          <Type>0</Type>
-          <LineNumber>266</LineNumber>
-          <EnabledFlag>1</EnabledFlag>
-          <Address>0</Address>
-          <ByteObject>0</ByteObject>
-          <HtxType>0</HtxType>
-          <ManyObjects>0</ManyObjects>
-          <SizeOfObject>0</SizeOfObject>
-          <BreakByAccess>0</BreakByAccess>
-          <BreakIfRCount>0</BreakIfRCount>
-          <Filename>.\main.c</Filename>
-          <ExecCommand></ExecCommand>
-          <Expression></Expression>
-        </Bp>
-        <Bp>
-          <Number>24</Number>
-          <Type>0</Type>
-          <LineNumber>279</LineNumber>
-          <EnabledFlag>1</EnabledFlag>
-          <Address>0</Address>
-          <ByteObject>0</ByteObject>
-          <HtxType>0</HtxType>
-          <ManyObjects>0</ManyObjects>
-          <SizeOfObject>0</SizeOfObject>
-          <BreakByAccess>0</BreakByAccess>
-          <BreakIfRCount>0</BreakIfRCount>
-          <Filename>.\main.c</Filename>
-          <ExecCommand></ExecCommand>
-          <Expression></Expression>
-        </Bp>
-        <Bp>
-          <Number>25</Number>
-          <Type>0</Type>
-          <LineNumber>281</LineNumber>
-          <EnabledFlag>1</EnabledFlag>
-          <Address>0</Address>
-          <ByteObject>0</ByteObject>
-          <HtxType>0</HtxType>
-          <ManyObjects>0</ManyObjects>
-          <SizeOfObject>0</SizeOfObject>
-          <BreakByAccess>0</BreakByAccess>
-          <BreakIfRCount>0</BreakIfRCount>
-          <Filename>.\main.c</Filename>
-          <ExecCommand></ExecCommand>
-          <Expression></Expression>
-        </Bp>
-        <Bp>
-          <Number>26</Number>
+          <Number>10</Number>
           <Type>0</Type>
           <LineNumber>388</LineNumber>
           <EnabledFlag>1</EnabledFlag>
@@ -577,7 +321,7 @@
           <Expression></Expression>
         </Bp>
         <Bp>
-          <Number>27</Number>
+          <Number>11</Number>
           <Type>0</Type>
           <LineNumber>390</LineNumber>
           <EnabledFlag>1</EnabledFlag>
@@ -593,7 +337,7 @@
           <Expression></Expression>
         </Bp>
         <Bp>
-          <Number>28</Number>
+          <Number>12</Number>
           <Type>0</Type>
           <LineNumber>403</LineNumber>
           <EnabledFlag>1</EnabledFlag>
@@ -609,7 +353,7 @@
           <Expression></Expression>
         </Bp>
         <Bp>
-          <Number>29</Number>
+          <Number>13</Number>
           <Type>0</Type>
           <LineNumber>405</LineNumber>
           <EnabledFlag>1</EnabledFlag>
@@ -625,7 +369,7 @@
           <Expression></Expression>
         </Bp>
         <Bp>
-          <Number>30</Number>
+          <Number>14</Number>
           <Type>0</Type>
           <LineNumber>447</LineNumber>
           <EnabledFlag>1</EnabledFlag>
@@ -641,7 +385,7 @@
           <Expression></Expression>
         </Bp>
         <Bp>
-          <Number>31</Number>
+          <Number>15</Number>
           <Type>0</Type>
           <LineNumber>449</LineNumber>
           <EnabledFlag>1</EnabledFlag>
@@ -657,7 +401,7 @@
           <Expression></Expression>
         </Bp>
         <Bp>
-          <Number>32</Number>
+          <Number>16</Number>
           <Type>0</Type>
           <LineNumber>462</LineNumber>
           <EnabledFlag>1</EnabledFlag>
@@ -673,7 +417,7 @@
           <Expression></Expression>
         </Bp>
         <Bp>
-          <Number>33</Number>
+          <Number>17</Number>
           <Type>0</Type>
           <LineNumber>464</LineNumber>
           <EnabledFlag>1</EnabledFlag>

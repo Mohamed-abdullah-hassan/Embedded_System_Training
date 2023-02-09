@@ -403,7 +403,7 @@ void OLED_PutChar(char ch )
     memmove( bytes + 1, base, 8 );
        
 		I2C3_Write_Multiple(0x3C,0x40,9,bytes);
-    
+    //Delay_ms(50);
 }
 
 
