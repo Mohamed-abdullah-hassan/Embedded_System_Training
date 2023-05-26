@@ -11,11 +11,13 @@ int main(void)
 	SYSCTL->RCGCGPIO				|=	 0X20;
 	GPIOF->DIR							|=	 (LED_Blue | LED_Green | LED_Red);
 	GPIOF->DEN							|=	 (LED_Blue | LED_Green | LED_Red);
+	GPIOF->DATA							^=	LED_Blue;
 	
 	__disable_irq();
 	SysTick->LOAD						 =	16000000U - 1;
 	SysTick->CTRL						 =	7;
 	__enable_irq();
+	
 	
 	while(1){}
 	
@@ -23,6 +25,7 @@ int main(void)
 
 void SysTick_Handler()
 {
-	GPIOF->DATA							^=	LED_Blue;
+	GPIOF->DATA							^=	(LED_Blue|LED_Red);
+
 }
 

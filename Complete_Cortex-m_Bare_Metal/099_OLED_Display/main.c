@@ -105,8 +105,8 @@ const uint8_t OledFont[][8] =
   {0x00,0x02,0x05,0x05,0x02,0x00,0x00,0x00},
 };
 
-#define USE_OLED_128X32
-//#define USE_OLED_128X64
+//#define USE_OLED_128X32
+#define USE_OLED_128X64
 
 
 // Define OLED dimensions
@@ -118,7 +118,8 @@ const uint8_t OledFont[][8] =
 #ifdef USE_OLED_128X64
 	#define OLED_WIDTH 128
 	#define OLED_HEIGHT 64
-	#define slaveaddress 0x78
+	//#define slaveaddress 0x78
+	#define slaveaddress 0x3C
 #endif
 #endif
 
@@ -234,8 +235,7 @@ GPIOD->PCTL |= 0x00000033 ;
 GPIOD->ODR |= 0x00000002 ; // SDA (PD1 ) pin as open darin
 I2C3->MCR  = 0x0010 ; // Enable I2C 3 master function
 /* Configure I2C 3 clock frequency
-(1 + TIME_PERIOD ) = SYS_CLK /(2*
-( SCL_LP + SCL_HP ) * I2C_CLK_Freq )
+(1 + TIME_PERIOD ) = SYS_CLK /(2* ( SCL_LP + SCL_HP ) * I2C_CLK_Freq )
 TIME_PERIOD = 16 ,000 ,000/(2(6+4) *100000) - 1 = 7 */
 I2C3->MTPR  = 0x07 ;
 }
